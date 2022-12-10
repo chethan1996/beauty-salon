@@ -3,31 +3,19 @@ import "bulma/css/bulma.css";
 import './App.css';
 import Home from "./components/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Background from "./img/make-up_phone.jpeg"
+
 
 function App() {
   return (
 
-    <div className="App">
+    <div className="App" style={{backgroundImage:`url(${Background})`}}>
       <BrowserRouter>
       <Routes>
 
       <Route path="/" element={<Home/>} />
       </Routes>
       </BrowserRouter>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
