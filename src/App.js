@@ -9,7 +9,7 @@ import Background from "./img/make-up_phone.jpeg"
 function App() {
   return (
 
-    <div className="App" style={{backgroundImage:`url(${Background})`}}>
+    <div className="App" >
       <BrowserRouter>
       <Routes>
 
