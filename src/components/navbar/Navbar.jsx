@@ -1,6 +1,6 @@
 import React from "react";
 import shineLogo from "../../img/shine_logo.png"
-
+import "./navbar.css"
 
 export default function Navbar() {
   const [isActive, setisActive] = React.useState(false);
@@ -28,7 +28,10 @@ export default function Navbar() {
       className={`navbar-menu ${isActive ? "is-active" : ""}`}
     >
       <div className="navbar-start">
-        <a className="navbar-item" href="#">Home</a>
+      <div class="enable-scroll">
+        <a className="navbar-item scroll-text-1" href="#" >Home</a>
+        <a className="navbar-item scroll-text-2" href="#" >Home</a>
+        </div>
         <a className="navbar-item" href="#">Services</a>
         <a className="navbar-item" href="#">Book Appointment</a>
         <a className="navbar-item" href="#">About Us</a>
