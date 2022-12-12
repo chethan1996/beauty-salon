@@ -28,10 +28,7 @@ export default function Navbar() {
       className={`navbar-menu ${isActive ? "is-active" : ""}`}
     >
       <div className="navbar-start">
-      <div class="enable-scroll">
-        <a className="navbar-item scroll-text-1" href="#" >Home</a>
         <a className="navbar-item scroll-text-2" href="#" >Home</a>
-        </div>
         <a className="navbar-item" href="#">Services</a>
         <a className="navbar-item" href="#">Book Appointment</a>
         <a className="navbar-item" href="#">About Us</a>
