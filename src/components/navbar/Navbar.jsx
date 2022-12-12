@@ -29,7 +29,9 @@ export default function Navbar() {
     >
       <div className="navbar-start">
         <a className="navbar-item" href="#">Home</a>
-        <a className="navbar-item" href="#">Documentation</a>
+        <a className="navbar-item" href="#">Services</a>
+        <a className="navbar-item" href="#">Book Appointment</a>
+        <a className="navbar-item" href="#">About Us</a>
       </div>
     </div>
 </nav>
