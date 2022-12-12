@@ -1,4 +1,6 @@
 import React from "react";
+import shineLogo from "../../img/shine_logo.png"
+
 
 export default function Navbar() {
   const [isActive, setisActive] = React.useState(false);
@@ -6,6 +8,7 @@ export default function Navbar() {
     <>
     <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
+    <img src={shineLogo} width="112" height="28" alt="Shine:For the girls"></img>
       <button
         onClick={() => {
           setisActive(!isActive);
@@ -25,8 +28,8 @@ export default function Navbar() {
       className={`navbar-menu ${isActive ? "is-active" : ""}`}
     >
       <div className="navbar-start">
-        <a className="navbar-item">Home</a>
-        <a className="navbar-item">Documentation</a>
+        <a className="navbar-item" href="#">Home</a>
+        <a className="navbar-item" href="#">Documentation</a>
       </div>
     </div>
 </nav>
