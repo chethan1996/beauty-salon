@@ -1,6 +1,11 @@
+@font-face {
+  font-family: carter one;
+  src: url(../../fonts/Carter-One.ttf.woff);
+}
+
 .animate-charcter
 {
-    font-family:"Courier New"; 
+    font-family:"carter one"; 
   background-image: linear-gradient(
     -225deg,
     #d88810 0%,
