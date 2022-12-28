@@ -3,9 +3,11 @@
   width: 100vw;
   height: 100vh;
   background-image: url("./img/make-up.jpeg");
+  background-size: cover;
 }
 @media screen and (max-width: 400px) and (max-height: 810px) {
   .App {
     background-image: url("./img/make-up_phone.jpeg");
+    background-size: cover;
   }
  }
