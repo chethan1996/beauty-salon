@@ -15,13 +15,13 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-md-auto gap-2">
         <li className="nav-item rounded">
-          <a className="nav-link active" aria-current="page" href="#"><i className="bi bi-house-fill me-2"></i>Home</a>
+          <a className="nav-link active" aria-current="page" href="#"><i className="fa fa-home me-2"></i>Home</a>
         </li>
         <li className="nav-item rounded">
-          <a className="nav-link" href="#"><i className="bi bi-people-fill me-2"></i>About</a>
+          <a className="nav-link" href="#"><i className="fa fa-users me-2"></i>About</a>
         </li>
         <li className="nav-item rounded">
-          <a className="nav-link" href="#"><i className="bi bi-telephone-fill me-2"></i>Contact</a>
+          <a className="nav-link" href="#"><i className="fa fa-phone me-2"></i>Contact</a>
         </li>
         <li className="nav-item dropdown rounded">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i className="bi bi-person-fill me-2"></i>Profile</a>
