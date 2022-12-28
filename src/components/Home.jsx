@@ -8,7 +8,7 @@ export default function Home(){
         <div>
         <section>
             <Routes>
-                <Route path="/" element={[<Navbar/>,<LandingPage/>]} />
+                <Route path="/" element={[<Navbar key={1}/>,<LandingPage key={2}/>]} />
             </Routes>
         </section>
         </div>
